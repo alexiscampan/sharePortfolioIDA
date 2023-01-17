@@ -1,0 +1,45 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'18'
+-sourcepath
+'/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'sharePortfolioIDA 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'sharePortfolioIDA 1.0-SNAPSHOT API'
+tp04.metier
+tp04.exec
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/src/main/java = 1673946146964
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/copy.svg = 1673948627327
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/allclasses-index.html = 1673948627297
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/package-search-index.js = 1673948627307
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/overview-tree.html = 1673948627277
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/index-all.html = 1673948627317
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/tag-search-index.js = 1673948627307
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/script.js = 1673948627327
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/search.js = 1673948627327
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/allpackages-index.html = 1673948627297
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/member-search-index.js = 1673948627307
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/element-list = 1673948627227
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/module-search-index.js = 1673948627307
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/stylesheet.css = 1673948627327
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/type-search-index.js = 1673948627307
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/help-doc.html = 1673948627317
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/index.html = 1673948627287
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/overview-summary.html = 1673948627317
+/home/acamzyzz/demarch_dev_agile/sharePortfolioIDA/target/site/apidocs/jquery-ui.overrides.css = 1673948627327
