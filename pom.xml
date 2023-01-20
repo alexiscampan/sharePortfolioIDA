@@ -8,13 +8,21 @@
     <artifactId>sharePortfolioIDA</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
         <exec.mainClass>fr.utc.ida.forge.shareportfolioida.SharePortfolioIDA</exec.mainClass>
         <sonar.organization>alexiscampan</sonar.organization>
+        <sonar.projectKey>alexiscampan_sharePortfolioIDA</sonar.projectKey> 
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.java.libraries></sonar.java.libraries>
     </properties>
     <dependencies>
         <dependency>
@@ -39,7 +47,52 @@
                     <configuration>
                         <showDeprecation>true</showDeprecation>
                     </configuration>
-                </plugin>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.rat</groupId>
+                <artifactId>apache-rat-plugin</artifactId>
+                <version>0.13</version>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.6</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.1.2</version>
+                <configuration>
+                    <configLocation>config/sun_checks.xml</configLocation>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.3.1</version>
+                <configuration>
+                    <docfilessubdirs>true</docfilessubdirs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+
 </project>
